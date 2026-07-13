@@ -3,7 +3,13 @@ Getting started: https://aws.amazon.com/bedrock/getting-started/
 Login to your AWS account from the command line:
 
 ```bash
-aws configure
+aws login --profile your-profile-name
+```
+
+Set the default profile for the current session:
+
+```bash
+export AWS_PROFILE=your-profile-name
 ```
 
 Install python packages:
