@@ -2,7 +2,7 @@
 
 See the getting started instructions by Google at: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/start
 
-This directory authenticates to Google Agent Platform with OAuth / User SSO (Application Default Credentials). Use `gemini.py` to access Gemini models, `claude.py` to access Anthropic's Claude models or `openweights.py` to access open-weights model deployments via the Google Agent Platform Model-as-a-Service endpoint.
+This directory authenticates to Google Agent Platform with OAuth / User SSO (Application Default Credentials). Use `gemini.py` to access Gemini models, `claude.py` to access Anthropic's Claude models, `grok.py` to access xAI's Grok models or `openweights.py` to access open-weights model deployments via the Google Agent Platform Model-as-a-Service endpoint.
 
 ## OAuth / User SSO
 
@@ -27,8 +27,7 @@ gcloud config get-value project
 
 ## Environment variables
 
-All three scripts read the Google Cloud project ID from an environment variable
-instead of a hard-coded value:
+All scripts read the Google Cloud project ID from an environment variable instead of a hard-coded value:
 
 ```bash
 export GOOGLE_CLOUD_PROJECT="<your-project-id>"

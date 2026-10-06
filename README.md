@@ -4,7 +4,7 @@ Working examples of calling large language models on AWS, Azure and Google Cloud
 
 ## Real-time inference
 
-Short "Hello World" Python scripts that send a single prompt and print the response. Each directory contains one script per model family (`chatgpt.py`, `claude.py`, `gemini.py` and/or `openweights.py`).
+Short "Hello World" Python scripts that send a single prompt and print the response. Each directory contains one script per model family (`chatgpt.py`, `claude.py`, `gemini.py`, `grok.py` and/or `openweights.py`).
 
 | Service | Directory | Authentication |
 |---------|-----------|----------------|

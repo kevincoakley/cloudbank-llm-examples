@@ -2,7 +2,7 @@
 
 See the getting started instructions by Microsoft at: https://learn.microsoft.com/en-us/azure/ai-foundry/
 
-This directory authenticates to Azure Foundry using the OpenAI API. Use `chatgpt.py` to access GPT deployments, `claude.py` to access Anthropic's Claude models or `openweights.py` to access open-weights model deployments via Azure Foundry.
+This directory authenticates to Azure Foundry using the OpenAI API. Use `chatgpt.py` to access GPT deployments, `claude.py` to access Anthropic's Claude models, `grok.py` to access xAI's Grok deployments or `openweights.py` to access open-weights model deployments via Azure Foundry.
 
 ## OpenAI API
 
@@ -10,7 +10,7 @@ Get the API key and endpoint from the Azure Foundry portal under your
 resource's **Keys and Endpoint** page.
 
 Set the following environment variables. The `OPENAI_*` variables are read by the
-`openai` SDK (used by `chatgpt.py` and `openweights.py`), and the
+`openai` SDK (used by `chatgpt.py`, `grok.py` and `openweights.py`), and the
 `ANTHROPIC_FOUNDRY_*` variables are read by the `anthropic` SDK (used by
 `claude.py`) -- both use the same Foundry API key value.
 
