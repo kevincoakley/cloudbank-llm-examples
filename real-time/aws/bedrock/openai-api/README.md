@@ -2,7 +2,7 @@
 
 See the getting started instructions by AWS at: https://aws.amazon.com/bedrock/getting-started/
 
-This directory authenticates to AWS Bedrock using the OpenAI API. First, install the required python packages. Use `openweights.py` to access open-weights models via AWS Bedrock.
+This directory authenticates to AWS Bedrock using the OpenAI API. First, install the required python packages. Use `grok.py` to access xAI's Grok models or `openweights.py` to access open-weights models via AWS Bedrock. Grok models are only available through cross-Region inference profiles (e.g. `us.xai.grok-4.6`).
 
 ## OpenAI API
 

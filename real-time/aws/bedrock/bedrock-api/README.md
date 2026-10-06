@@ -2,7 +2,7 @@
 
 See the getting started instructions by AWS at: https://aws.amazon.com/bedrock/getting-started/
 
-This directory authenticates to AWS Bedrock with Bedrock API Keys (short or long term), OAuth / User SSO or Key / Secret Pairs. First, select an authentication method then install the required python packages. Use `claude.py` to access Anthropic's Claude models or `openweights.py` to access open-weights models via AWS Bedrock.
+This directory authenticates to AWS Bedrock with Bedrock API Keys (short or long term), OAuth / User SSO or Key / Secret Pairs. First, select an authentication method then install the required python packages. Use `claude.py` to access Anthropic's Claude models, `grok.py` to access xAI's Grok models or `openweights.py` to access open-weights models via AWS Bedrock. Grok models are only available through cross-Region inference profiles (e.g. `us.xai.grok-4.6`).
 
 ## Bedrock API Keys
 

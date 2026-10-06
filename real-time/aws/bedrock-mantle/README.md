@@ -2,7 +2,7 @@
 
 See the getting started instructions by AWS at: https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-mantle.html
 
-This directory authenticates to AWS Bedrock Mantle using the OpenAI API. First, create a Bedrock API key then install the required python packages. Use `chatgpt.py` to access OpenAI models, `claude.py` to access Anthropic's Claude models or `openweights.py` to access other open weight models via AWS Bedrock Mantle.
+This directory authenticates to AWS Bedrock Mantle using the OpenAI API. First, create a Bedrock API key then install the required python packages. Use `chatgpt.py` to access OpenAI models, `claude.py` to access Anthropic's Claude models, `grok.py` to access xAI's Grok models or `openweights.py` to access other open weight models via AWS Bedrock Mantle.
 
 ## OpenAI API
 
